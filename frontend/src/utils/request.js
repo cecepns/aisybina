@@ -43,7 +43,7 @@ export function getUploadUrl(path) {
 
   // const base =
   //   import.meta.env.VITE_API_URL?.replace(/\/api$/, "") || "http://localhost:3001";
-  const base = "https://api.kingcreativestudio.my.id/aisybina/api"   
+  const base = "https://api.kingcreativestudio.my.id/aisybina"   
 
   return `${base}${normalized}`;
 }
